@@ -17,7 +17,7 @@ toilet "msfconsole" -f term -F border --gay | pv -qL 100
 sleep 8
 pkg install unstable-repo -y
 clear
-toilet "IF YOU GET ERRO OF" -f term -F border --gay | pv -qL 100
+toilet "IF YOU GET ERROR OF" -f term -F border --gay | pv -qL 100
 sleep 1
 toilet "E:Unable to locate package unstable-repo" -f term -F border --gay | pv -qL 100
 sleep 1

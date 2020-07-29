@@ -22,12 +22,15 @@ sleep 1
 toilet "E:Unable to locate package unstable-repo" -f term -F border --gay | pv -qL 100
 sleep 1
 toilet "WAIT FOR NEXT VEDIO" -f term -F border --gay | pv -qL 100
-sleep 
-toilet "{START TO INSTALL METASPLOIT}" -f term -F border --gay | pv -qL 100
+sleep 1
+toilet "{STARTING TO INSTALL METASPLOIT}" -f term -F border --gay | pv -qL 100
 sleep 1
 toilet "{IT TAKE TIME TO INSTALL}" -f term -F border --gay | pv -qL 100
 toilet "{PLEASE WAIT}" -f term -F border --gay | pv -qL 100
 sleep 4
 clear
 pkg install metasploit -y
+clear
+toilet "{STARTING METASPLOIT}" -f term -F border --gay | pv -qL 100
+sleep 1
 msfconsole

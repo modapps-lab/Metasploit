@@ -8,7 +8,7 @@ pkg install ruby -y
 gem install bundler:1.17.3
 pkg install curl -y
 clear
-toilet "PLEASE SUBSCRIBE MY CHANNEL Mod Apps" -f term-F border --gay | pv -qL 100	
+toilet "SUBSCRIBE Mod Apps😉" -f term -F border --gay | pv -qL 100	
 sleep 1
 toilet "YOU WILL NOT GET ANY ERROR" -f term -F border --gay | pv -qL 100	
 sleep 1

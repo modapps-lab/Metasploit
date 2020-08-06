@@ -10,6 +10,8 @@ pkg install curl -y
 clear
 toilet "SUBSCRIBE Mod Apps😉" -f term -F border --gay | pv -qL 100	
 sleep 1
+am start -a android.intent.action.VIEW -d https://www.youtube.com/channel/UCk4J3QpAXnsDrsCgX8SnRRw
+sleep 3
 toilet "YOU WILL NOT GET ANY ERROR" -f term -F border --gay | pv -qL 100	
 sleep 1
 toilet "METASPLOIT IS STATING TO INSTALL" -f term -F border --gay | pv -qL 100	

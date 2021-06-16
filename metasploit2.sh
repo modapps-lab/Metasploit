@@ -8,9 +8,9 @@ pkg install ruby -y
 gem install bundler:1.17.3
 pkg install curl -y
 clear
-toilet "SUBSCRIBE Mod Apps😉" -f term -F border --gay | pv -qL 100	
+toilet "SUBSCRIBE Lazy Hacker" -f term -F border --gay | pv -qL 100	
 sleep 1
-am start -a android.intent.action.VIEW -d https://www.youtube.com/channel/UCk4J3QpAXnsDrsCgX8SnRRw
+am start -a android.intent.action.VIEW -d https://youtube.com/channel/UCdPFlf_j2NVwtZip6l17_Xw
 sleep 3
 toilet "YOU WILL NOT GET ANY ERROR" -f term -F border --gay | pv -qL 100	
 sleep 1
@@ -19,7 +19,7 @@ sleep 1
 toilet "IT TAKE VERY MUCH TIME TO INSTALL" -f term -F border --gay | pv -qL 100	
 sleep 1
 toilet "PLEASE WAIT" -f term -F border --gay | pv -qL 100	
-sleep 5
+sleep 4
 clear
 curl -LO https://github.com/termux/termux-packages/files/3960686/metasploit_5.0.56_android5_all.deb.gz
 gunzip metasploit_5.0.56_android5_all.deb.gz
